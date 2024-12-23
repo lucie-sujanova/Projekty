@@ -4,7 +4,6 @@ projekt_1.py: první projekt do Engeto Online Python Akademie
 author: Lucie Šujanová
 email: lsujanova@seznam.com
 """
-
 TEXTS = ['''
 Situated about 10 miles west of Kemmerer,
 Fossil Butte is a ruggedly impressive
@@ -99,7 +98,7 @@ for word in words:
     if length > 0:
         lengths[length] = lengths.get(length, 0) + 1
 
-#Vytvoření jednoduchého grafu
+# Vytvoření grafu
 print("LEN| NUMBER OF OCCURENCES")
 print("-" * 40)
 
