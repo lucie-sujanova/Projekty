@@ -48,7 +48,7 @@ def hlavni():
         cow_text = "cow" if cows == 1 else "cows"
 
         print(f"{bulls} {bull_text}, {cows} {cow_text}")
-
+        
         if bulls == 4:
             end_time = time.time()
             total_time = round(end_time - start_time)
